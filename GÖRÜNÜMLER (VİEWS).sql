@@ -84,13 +84,6 @@ JOIN Person.Address AS A ON SOH.BillToAddressID = A.AddressID;
 
 SELECT * FROM vw_CustomersByCity;
 
-
-
-
-
-
-
-
 USE AdventureWorks2019;
 GO
 CREATE VIEW vw_RecentOrders AS
